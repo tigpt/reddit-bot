@@ -20,6 +20,13 @@ RUN pip install praw
 
 RUN pip install beautifulsoup4
 
+
+############################
+#  Install urllib.request  #
+############################
+
+RUN pip install urllib.request
+
 #######################
 #  Run python script  #
 #######################
