@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    reddit-bot:
+      restart: unless-stopped
+      image: tigpt/reddit-bot
+      container_name: reddit-bot
+      volumes:
+        - ./volumes/:/volumes/
