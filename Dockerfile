@@ -1,12 +1,6 @@
-FROM alpine:latest
+FROM python:alpine
 
 LABEL maintainer="Tiago Rodrigues <mail@tig.pt>"
-
-####################
-#  Install python  #
-####################
-
-RUN apk add --update python3 py-pip
 
 ##################
 #  Install praw  #
